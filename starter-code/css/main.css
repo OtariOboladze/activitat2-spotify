@@ -90,6 +90,7 @@ h1 {
 .whats span {
       padding: 100px auto;
       border-bottom: 5px solid;
+      border-color: #00b172;
 }
 
 /* 
@@ -134,30 +135,75 @@ h1 {
       padding: 100px auto;
 }
 
-footer * {
+/* footer * {
       border: 1px solid;
-}
+} */
 
 footer {
       display: flex;
       height: auto;
       justify-content: space-around;
-	border: 1px solid;
-	background-color: #00B172;
+      /* border: 1px solid; */
+      background-color: #00b172;
 }
 
 footer ul {
-	display: flex;
-	width: 400px;
-	flex-direction: column;
-	justify-content: space-evenly;
-	margin: 0;
+      display: flex;
+      width: 400px;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin: 0;
 }
 
 footer ul li {
       margin: 0;
 }
 
-.whiteIcon{
-	align-self: center;
+.whiteIcon {
+      align-self: center;
+}
+
+#yeezy {
+      display: flex;
+      height: auto;
+      justify-content: space-around;
+      /* border: 1px solid; */
+      background-color: #00b172;
+}
+
+footer,
+#yeezy {
+      color: white;
+}
+
+#yeezy p:first-child {
+      font-size: 40px;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border-bottom: 3px solid;
+}
+
+footer ul li h2 {
+      font-size: 30px;
+}
+
+footer ul li p {
+      font-size: 20px;
+}
+
+#whiteBorder {
+      padding: 20px;
+}
+
+h3 {
+      font-size: 30px;
+      font-weight: bolder;
+      color: #00b172;
+}
+
+.div1 p,
+.div2 p,
+.div3 p {
+      font-size: 25px;
+      font-weight: lighter;
 }
